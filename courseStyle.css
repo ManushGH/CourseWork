@@ -1,0 +1,153 @@
+* { font-family: Arial, Times, serif; margin:0px; padding:0px;}
+
+header img {
+	float:left;
+	
+	padding-top: 15px;
+	margin-left:-10px;
+}
+
+body {
+	margin: auto;
+}
+
+header {
+	padding-left: 30px;
+	border-bottom: 4px solid black;
+	margin-bottom :30px;
+	height :110px;
+	background: radial-gradient(circle, rgba(245,63,63,1) 0%, rgba(216,96,96,1) 100%);
+}
+
+main {
+	padding-right: 30px;
+	padding-bottom: 5px;
+	padding-left: 30px;
+}
+
+
+main{
+	clear:left;
+	height:1000px;
+}
+
+main form{
+	text-align:center;
+}
+
+h1 {
+	padding-top: 15px;
+	color: black;
+	font-size: 260%;
+	/*text-shadow: 3px 3px 3px steelblue;*/
+	font-style: italic;
+	margin-left: 210px;
+}
+
+footer { 
+	border-top: 4px solid black;
+	text-align: center;
+	background: radial-gradient(circle, rgba(245,63,63,1) 0%, rgba(216,96,96,1) 100%);
+	font-size: 90%;
+	height :50px;
+}
+
+footer p{
+	color:white;
+	padding-top: 20px;
+}
+
+.backButton {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: 2px solid #f4511e;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  width: 170px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.backButton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.backButton span:before {
+  content: '<<';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: -100px;
+  transition: 0.5s;
+}
+
+.backButton:hover span {
+  padding-left: 25px;
+}
+
+.backButton:hover span:before {
+  opacity: 1;
+  right: 0;
+}
+
+.backButton:hover {
+	border: 2px solid #f4511e;
+	background-color: white;
+	color: #f4511e;
+}
+
+
+.submitButton {
+  background-color: #f4511e;
+  border: 2px solid #f4511e;
+  border-radius: 4px;
+  color: white;
+	padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 100px;
+  font-size: 16px;
+  margin: 5px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+	border: 2px solid #f4511e;
+	background-color: white;
+	color: #f4511e;
+}
+
+
+
+.Subjectselect {
+  position: relative;
+  font-family: Arial;
+}
+
+.Subjectselect select {
+	width:313px;
+	height:30px;
+	background-color:#f4511e;
+	color: white;
+}
+
+label {
+font-size:140%;
+}
+
+form {
+	border-radius: 4px;
+  background-color: lightgrey;
+  border: 2px solid #f4511e;
+  width:500px;
+  margin-left: 500px;
+}
